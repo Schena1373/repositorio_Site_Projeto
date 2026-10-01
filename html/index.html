@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Site</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">TMSI</a>
+      <!-- Estrutura menu responsivo -->
+      <button class="menu-toggle" id="menuResponsivo" aria-label="Abrir-Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="#paginaInicial">Página Inicial</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#topico">Tópico</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="paginaInicial" class="carousel-section">
+      <div class="carousel-container">
+        <div class="carousel-slide active slide-1">
+          <div class="hero-content">
+            <h1>Hardware</h1>
+            <p>Compreender e identificar peças do computador</p>
+            <a href="#" class="btn-primary">Mais informações</a>
+          </div>
+        </div>
+        <div class="carousel-slide-2">
+          <div class="hero-content">
+            <h1>Desing</h1>
+            <p>Desenvolvimento frontend</p>
+            <a href="#" class="btn-primary">Mais informações</a>
+          </div>
+        </div>
+        <div class="carousel-slide-3">
+          <div class="hero-content">
+            <h1>Projeto</h1>
+            <p>Atividade shark tank</p>
+            <a href="#" class="btn-primary">Mais informações</a>
+          </div>
+        </div>
+        <button class="carousel-btn prev-btn"
+        id="prevBtn"><span class="botao esquerda"> </span>
+        </button>
+        <button class="carousel-btn next-btn"
+        id="nextBtn"><span class="botao direita"></span>
+        </button>
+        <div class="carousel-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="Container">
+        <h2>Hardware</h2>
+        <div class="grid-2-cols">
+          <div class="text-block">
+            <p> Compreender peças física</p>
+            <p>Como identificar modelo de placa-mãe</p>
+          </div>
+        
+          <div class="status-block">
+            <div class="stat-card">
+              <h3>33 horas</h3>
+              <p>Carga horária</p>
+            </div>
+            <div class="stat-card">
+              <h3>Segundo ano</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
