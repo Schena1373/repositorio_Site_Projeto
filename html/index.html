@@ -10,7 +10,6 @@
     <header class="header">
       <a href="" class="logo">TMSI</a>
       <!-- Estrutura menu responsivo -->
-      <!-- Para aberir no celular -->
       <button class="menu-toggle" id="menuResponsivo" aria-label="Abrir-Menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -32,21 +31,21 @@
           <div class="hero-content">
             <h1>Hardware</h1>
             <p>Compreender e identificar peças do computador</p>
-            <a href="#" class="btn-primary">Mais informações</a>
+            <a href="#sobre" class="btn-primary">Mais informações</a>
           </div>
         </div>
         <div class="carousel-slide-2">
           <div class="hero-content">
             <h1>Desing</h1>
             <p>Desenvolvimento frontend</p>
-            <a href="#" class="btn-primary">Mais informações</a>
+            <a href="#topico" class="btn-primary">Mais informações</a>
           </div>
         </div>
         <div class="carousel-slide-3">
           <div class="hero-content">
             <h1>Projeto</h1>
             <p>Atividade shark tank</p>
-            <a href="#" class="btn-primary">Mais informações</a>
+            <a href="#contato" class="btn-primary">Mais informações</a>
           </div>
         </div>
         <button class="carousel-btn prev-btn"
@@ -81,6 +80,50 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section by-light">
+      <div class="Container">
+        <h2>Tópicos das disciplinas</h2>
+        <div class="grid-3-cols">
+          <div class="card">
+            <div class="icon">🖥️​</div>
+            <h3>Desenvolvimento Web</h3>
+            <p>Construção de sites responsivos</p>
+          </div>
+          <div class="card">
+            <div class="icon">🎵​​</div>
+            <h3>Música</h3>
+            <p>Usar programas de edição de áudio</p>
+          </div>
+          <div class="card">
+            <div class="icon">📷​​</div>
+            <h3>Fotografia e Áudiovisual</h3>
+            <p>Entender como funciona uma câmera e usar aps de edição de vídeo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contato" class="section">
+      <div class="container">
+        <h2>Mais informações sobre o curso</h2>
+        <form class="contact-form" id="contatoForm">
+          <div class="form-group">
+            <label for="name">Nome Completo</label>
+            <input type="text" id="name" placeholder="Informe seu nome completo">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seuemail@exemplo.com">
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" placeholder="Como podemos te ajudar?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Enviar mensagem</button>
+
+        </form>
       </div>
     </section>
   </body>
